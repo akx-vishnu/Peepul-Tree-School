@@ -12,6 +12,7 @@ import './index.css';
 // Lazy load heavy components
 const Programs = lazy(() => import('./components/Programs'));
 const Campus = lazy(() => import('./components/Campus'));
+const FloraFauna = lazy(() => import('./components/FloraFauna'));
 const Contact = lazy(() => import('./components/Contact'));
 const Gallery = lazy(() => import('./components/Gallery'));
 const Testimonials = lazy(() => import('./components/Testimonials'));
@@ -49,6 +50,7 @@ function App() {
                         <Programs />
                         <Timeline />
                         <Campus />
+                        <FloraFauna />
                         <Gallery />
                         <Testimonials />
                         <FAQ />

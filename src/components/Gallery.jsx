@@ -32,6 +32,14 @@ const Gallery = () => {
                         viewport={{ once: true }}
                         className="aspect-[4/3] overflow-hidden rounded-2xl cursor-pointer group relative"
                         onClick={() => openLightbox(index)}
+                        role="button"
+                        tabIndex="0"
+                        aria-label={`View image: ${image.alt}`}
+                        onKeyDown={(e) => {
+                            if (e.key === 'Enter' || e.key === ' ') {
+                                openLightbox(index);
+                            }
+                        }}
                     >
                         <img
                             src={image.src}
@@ -51,11 +59,19 @@ const Gallery = () => {
                     className="fixed inset-0 z-[70] bg-black/95 flex items-center justify-center p-4"
                     onClick={closeLightbox}
                 >
-                    <button className="absolute top-4 right-4 text-white p-2 hover:bg-white/10 rounded-full" onClick={closeLightbox}>
+                    <button
+                        className="absolute top-4 right-4 text-white p-2 hover:bg-white/10 rounded-full"
+                        onClick={closeLightbox}
+                        aria-label="Close gallery"
+                    >
                         <X size={32} />
                     </button>
 
-                    <button className="absolute left-4 text-white p-2 hover:bg-white/10 rounded-full hidden md:block" onClick={prevImage}>
+                    <button
+                        className="absolute left-4 text-white p-2 hover:bg-white/10 rounded-full hidden md:block"
+                        onClick={prevImage}
+                        aria-label="Previous image"
+                    >
                         <ChevronLeft size={48} />
                     </button>
 
@@ -66,7 +82,11 @@ const Gallery = () => {
                         onClick={(e) => e.stopPropagation()}
                     />
 
-                    <button className="absolute right-4 text-white p-2 hover:bg-white/10 rounded-full hidden md:block" onClick={nextImage}>
+                    <button
+                        className="absolute right-4 text-white p-2 hover:bg-white/10 rounded-full hidden md:block"
+                        onClick={nextImage}
+                        aria-label="Next image"
+                    >
                         <ChevronRight size={48} />
                     </button>
 

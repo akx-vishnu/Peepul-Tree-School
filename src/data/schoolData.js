@@ -73,22 +73,42 @@ export const schoolData = {
         {
             name: "Playgroup",
             age: "2 - 3 Years",
-            focus: "Social interaction, sensory play, and comfort in a new environment."
+            focus: "Social interaction, sensory play, and comfort in a new environment.",
+            details: {
+                description: "Our Playgroup is a gentle transition from home to school. We focus on emotional security and social adjustment through free play, songs, and sensory activities.",
+                curriculum: ["Sensory Play (Sand, Water, Clay)", "Music & Movement", "Storytelling", "Basic Life Skills"],
+                schedule: "9:00 AM - 12:00 PM"
+            }
         },
         {
             name: "Nursery",
             age: "3 - 4 Years",
-            focus: "Foundational literacy, numeracy, and emotional regulation."
+            focus: "Foundational literacy, numeracy, and emotional regulation.",
+            details: {
+                description: "In Nursery, children start exploring structured learning while maintaining a strong connection to play. We introduce letters, numbers, and environmental awareness.",
+                curriculum: ["Phonics & Pre-writing", "Number Concepts", "Gardening", "Art & Craft"],
+                schedule: "9:00 AM - 12:30 PM"
+            }
         },
         {
             name: "Kindergarten (LKG & UKG)",
             age: "4 - 6 Years",
-            focus: "School readiness, advanced cognitive skills, and collaborative projects."
+            focus: "School readiness, advanced cognitive skills, and collaborative projects.",
+            details: {
+                description: "Our Kindergarten program prepares children for formal schooling with a balanced approach of academics and holistic development.",
+                curriculum: ["Advanced Literacy & Numeracy", "Science Experiments", "Project-based Learning", "Public Speaking"],
+                schedule: "9:00 AM - 1:00 PM"
+            }
         },
         {
             name: "Summer Camp",
             age: "4 - 12 Years",
-            focus: "Fun & creative activities including Art, Craft, Origami, Clay Modeling, Storytelling, and more!"
+            focus: "Fun & creative activities including Art, Craft, Origami, Clay Modeling, Storytelling, and more!",
+            details: {
+                description: "A fun-filled seasonal camp designed to keep children engaged and creative during the holidays.",
+                curriculum: ["Pottery & Clay Modeling", "Theatre & Drama", "Eco-Art", "Outdoor Games"],
+                schedule: "April - May (9:30 AM - 12:30 PM)"
+            }
         }
     ],
     dailyRoutine: [
@@ -141,5 +161,31 @@ export const schoolData = {
         { src: "https://images.unsplash.com/photo-1472162072942-cd5147eb3902?q=80&w=2069&auto=format&fit=crop", alt: "Nature walk" },
         { src: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?q=80&w=1972&auto=format&fit=crop", alt: "Sand play" },
         { src: "https://images.unsplash.com/photo-1596464716127-f9a829be9ebc?q=80&w=1974&auto=format&fit=crop", alt: "Story time" }
+    ],
+    floraFauna: [
+        {
+            name: "Golden Shower Tree (Cassia fistula)",
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Cassia_fistula_L._-_Golden_Shower_Tree_-_Konnappoo_-_at_Kakkanad_-_Kerala_-_India_03.jpg/1280px-Cassia_fistula_L._-_Golden_Shower_Tree_-_Konnappoo_-_at_Kakkanad_-_Kerala_-_India_03.jpg",
+            description: "State flower of Kerala, known for its beautiful yellow hanging flowers.",
+            fact: "Did you know? In Kerala, this flower is used during the Vishu festival!"
+        },
+        {
+            name: "Peepal Tree (Ficus religiosa)",
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Ficus_religiosa.jpg/1280px-Ficus_religiosa.jpg",
+            description: "A sacred fig tree that provides shade and releases oxygen even at night.",
+            fact: "It is known as the 'Bodhi Tree' under which Buddha attained enlightenment."
+        },
+        {
+            name: "Malabar Giant Squirrel",
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Malabar_Giant_Squirrel_2.jpg/1280px-Malabar_Giant_Squirrel_2.jpg",
+            description: "A large, colorful tree squirrel found in Indian forests.",
+            fact: "They can jump up to 20 feet between trees!"
+        },
+        {
+            name: "Butterfly Garden",
+            image: "https://images.unsplash.com/photo-1551649938-166bfca38612?q=80&w=2070&auto=format&fit=crop",
+            description: "A dedicated space with nectar-rich plants to attract various butterfly species.",
+            fact: "Butterflies taste with their feet!"
+        }
     ]
 };

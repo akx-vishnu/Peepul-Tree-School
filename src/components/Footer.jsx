@@ -1,5 +1,6 @@
 import { schoolData } from '../data/schoolData';
 import logo from '../assets/logo.png';
+import { Instagram, Facebook } from 'lucide-react';
 
 const Footer = () => {
     return (
@@ -17,6 +18,27 @@ const Footer = () => {
                             {link.name}
                         </a>
                     ))}
+                </div>
+
+                <div className="flex justify-center gap-6 mb-8">
+                    <a
+                        href={schoolData.contact.instagram}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-white/80 hover:text-white transition-colors"
+                        aria-label="Follow us on Instagram"
+                    >
+                        <Instagram size={24} />
+                    </a>
+                    <a
+                        href={schoolData.contact.facebook}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-white/80 hover:text-white transition-colors"
+                        aria-label="Follow us on Facebook"
+                    >
+                        <Facebook size={24} />
+                    </a>
                 </div>
                 <div className="text-white/40 text-sm">
                     &copy; {new Date().getFullYear()} {schoolData.name}. All rights reserved.
