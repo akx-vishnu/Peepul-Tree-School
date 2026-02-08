@@ -31,7 +31,7 @@ function App() {
     }, []);
 
     return (
-        <div className="min-h-screen bg-[var(--color-bg-cream)]">
+        <div className="min-h-screen bg-[var(--color-bg-cream)] overflow-hidden">
             <AnimatePresence>
                 {loading && <Preloader />}
             </AnimatePresence>
