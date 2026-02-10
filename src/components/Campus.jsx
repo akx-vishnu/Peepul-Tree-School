@@ -14,7 +14,7 @@ const Campus = () => {
             caption: "Space for imagination"
         },
         {
-            src: "https://images.unsplash.com/photo-1560785496-08882ca636d3?q=80&w=1974&auto=format&fit=crop",
+            src: "https://commons.wikimedia.org/wiki/Special:FilePath/A_colorful_place_in_playground.jpg",
             alt: "Safe Playgrounds",
             caption: "Safe and secure play areas"
         },
@@ -40,7 +40,7 @@ const Campus = () => {
                         whileInView={{ opacity: 1, scale: 1 }}
                         viewport={{ once: true }}
                         transition={{ delay: index * 0.1 }}
-                        className="group relative overflow-hidden rounded-3xl h-64 md:h-80 cursor-pointer"
+                        className="group relative overflow-hidden rounded-3xl h-64 md:h-80 cursor-pointer bg-gray-900"
                     >
                         <img
                             src={img.src}

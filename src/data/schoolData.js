@@ -121,19 +121,34 @@ export const schoolData = {
     ],
     testimonials: [
         {
-            name: "Sarah M.",
-            role: "Mother of a 4-year-old",
-            quote: "Peepul Tree has been a blessing. My son is so much more confident and observant of nature now. The teachers are truly nurturing."
+            name: "Sujatha V",
+            role: "Parent",
+            quote: "The Peepul tree is a school where your child learns in freedom, without fear, and without comparison. My kid loves going to school everyday and he never wants to skip it."
         },
         {
-            name: "Davina S.",
-            role: "Parent of a Playgroup student",
-            quote: "I love the no-rush approach. Watching my daughter explore mud, leaves, and rain with such joy is priceless. It's exactly what childhood should be."
+            name: "JK Vijayaragahavan",
+            role: "Guardian",
+            quote: "The teaching methods are so innovative and backed up by scientifically proven methods like informal experimentation, watching, listening and collaborating."
         },
         {
-            name: "Arjun K.",
-            role: "Father of a Kindergarten student",
-            quote: "The holistic development is real. It's not just about ABCs; it's about kindness, sharing, and curiosity. Highly recommend this school."
+            name: "Suja Mohan",
+            role: "Parent",
+            quote: "Best school for the kid to start with. It took time for her to settle, now she enjoys each day here. No stress, all happy happy. Teachers are so caring and pay good attention."
+        },
+        {
+            name: "Sandhya Kunnath",
+            role: "Parent",
+            quote: "A school with a Purpose. The best school for kids to think out of the box. Emphasising on Activity based learning."
+        },
+        {
+            name: "Archana Ashok",
+            role: "Parent",
+            quote: "Anitha mam is excellent and highly passionate. She emphasizes not only on a kid's academics but also on the moral values of life."
+        },
+        {
+            name: "Senthil Murugesan",
+            role: "Parent",
+            quote: "Great efforts by the teacher... her way of teaching is very creative and different... she encourages kids to learn according to their own pace."
         }
     ],
     faqs: [
@@ -160,32 +175,32 @@ export const schoolData = {
         { src: "https://images.unsplash.com/photo-1588072432836-e10032774350?q=80&w=2072&auto=format&fit=crop", alt: "Classroom activities" },
         { src: "https://images.unsplash.com/photo-1472162072942-cd5147eb3902?q=80&w=2069&auto=format&fit=crop", alt: "Nature walk" },
         { src: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?q=80&w=1972&auto=format&fit=crop", alt: "Sand play" },
-        { src: "https://images.unsplash.com/photo-1596464716127-f9a829be9ebc?q=80&w=1974&auto=format&fit=crop", alt: "Story time" }
+        { src: "https://images.unsplash.com/photo-1544367563-1219553ce806?q=80&w=2070&auto=format&fit=crop", alt: "Story time" }
     ],
     floraFauna: [
         {
             name: "Golden Shower Tree (Cassia fistula)",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Cassia_fistula_L._-_Golden_Shower_Tree_-_Konnappoo_-_at_Kakkanad_-_Kerala_-_India_03.jpg/1280px-Cassia_fistula_L._-_Golden_Shower_Tree_-_Konnappoo_-_at_Kakkanad_-_Kerala_-_India_03.jpg",
+            image: "https://images.unsplash.com/photo-1565060865103-24750f28246e?q=80&w=2070&auto=format&fit=crop",
             description: "State flower of Kerala, known for its beautiful yellow hanging flowers.",
             fact: "Did you know? In Kerala, this flower is used during the Vishu festival!"
         },
         {
             name: "Peepal Tree (Ficus religiosa)",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Ficus_religiosa.jpg/1280px-Ficus_religiosa.jpg",
+            image: "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?q=80&w=2074&auto=format&fit=crop",
             description: "A sacred fig tree that provides shade and releases oxygen even at night.",
             fact: "It is known as the 'Bodhi Tree' under which Buddha attained enlightenment."
         },
         {
-            name: "Malabar Giant Squirrel",
-            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Malabar_Giant_Squirrel_2.jpg/1280px-Malabar_Giant_Squirrel_2.jpg",
-            description: "A large, colorful tree squirrel found in Indian forests.",
-            fact: "They can jump up to 20 feet between trees!"
+            name: "Indian Palm Squirrel",
+            image: "https://images.unsplash.com/photo-1598448834645-8c76735237b6?q=80&w=2070&auto=format&fit=crop",
+            description: "The three-striped busybody of the campus, often seen darting across trees.",
+            fact: "Legend says the stripes were formed by Lord Rama's affectionate stroke."
         },
         {
-            name: "Butterfly Garden",
-            image: "https://images.unsplash.com/photo-1551649938-166bfca38612?q=80&w=2070&auto=format&fit=crop",
-            description: "A dedicated space with nectar-rich plants to attract various butterfly species.",
-            fact: "Butterflies taste with their feet!"
+            name: "Red Hibiscus (Chembarathi)",
+            image: "https://images.unsplash.com/photo-1559181567-c3190ca9959b?q=80&w=2070&auto=format&fit=crop",
+            description: "A common, vibrant red flower found in almost every Kerala household.",
+            fact: "The flower is edible and leaves are traditionally used as a natural shampoo!"
         }
     ]
 };
