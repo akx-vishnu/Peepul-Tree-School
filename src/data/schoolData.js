@@ -175,14 +175,14 @@ export const schoolData = {
         { src: "https://images.unsplash.com/photo-1588072432836-e10032774350?q=80&w=2072&auto=format&fit=crop", alt: "Classroom activities" },
         { src: "https://images.unsplash.com/photo-1472162072942-cd5147eb3902?q=80&w=2069&auto=format&fit=crop", alt: "Nature walk" },
         { src: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?q=80&w=1972&auto=format&fit=crop", alt: "Sand play" },
-        { src: "https://images.unsplash.com/photo-1544367563-1219553ce806?q=80&w=2070&auto=format&fit=crop", alt: "Story time" }
+        { src: "https://images.unsplash.com/photo-1603354350317-6f7aaa5911c5?q=80&w=2070&auto=format&fit=crop", alt: "Story time" }
     ],
     floraFauna: [
         {
-            name: "Golden Shower Tree (Cassia fistula)",
-            image: "https://images.unsplash.com/photo-1565060865103-24750f28246e?q=80&w=2070&auto=format&fit=crop",
-            description: "State flower of Kerala, known for its beautiful yellow hanging flowers.",
-            fact: "Did you know? In Kerala, this flower is used during the Vishu festival!"
+            name: "Tulsi (Holy Basil)",
+            image: "https://commons.wikimedia.org/wiki/Special:FilePath/Tulsi_or_Tulasi_Holy_basil.jpg?width=600",
+            description: "The Queen of Herbs, revered for its medicinal properties and spiritual significance.",
+            fact: "It is considered an earthly manifestation of the goddess Tulsi/Vrinda."
         },
         {
             name: "Peepal Tree (Ficus religiosa)",
@@ -192,13 +192,13 @@ export const schoolData = {
         },
         {
             name: "Indian Palm Squirrel",
-            image: "https://images.unsplash.com/photo-1598448834645-8c76735237b6?q=80&w=2070&auto=format&fit=crop",
+            image: "https://commons.wikimedia.org/wiki/Special:FilePath/Indian_Palm_Squirrel.jpg?width=600",
             description: "The three-striped busybody of the campus, often seen darting across trees.",
             fact: "Legend says the stripes were formed by Lord Rama's affectionate stroke."
         },
         {
             name: "Red Hibiscus (Chembarathi)",
-            image: "https://images.unsplash.com/photo-1559181567-c3190ca9959b?q=80&w=2070&auto=format&fit=crop",
+            image: "https://commons.wikimedia.org/wiki/Special:FilePath/Hibiscus_India_Kerala.jpg?width=600",
             description: "A common, vibrant red flower found in almost every Kerala household.",
             fact: "The flower is edible and leaves are traditionally used as a natural shampoo!"
         }
