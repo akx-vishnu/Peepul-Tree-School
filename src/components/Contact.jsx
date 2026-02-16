@@ -23,40 +23,39 @@ const Contact = () => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
     };
 
-    const handleSubmit = async (e) => {
+    const handleSubmit = (e) => {
         e.preventDefault();
         setFormState({ loading: true, success: false, error: false });
 
-        const scriptURL = "https://script.google.com/macros/s/AKfycbxaOxWl7MW2FSmWt5lGOiLtKzAApHQajLDZtDDMeO8V0E4P3PsdxNsIgdNPmM6u2A0phQ/exec"; // Replace with your actual Google Script URL
+        const { "Parent Name": parentName, "Child Name": childName, Phone: phone, Program: program, Message: message } = formData;
 
-        try {
-            const response = await fetch(scriptURL, {
-                method: "POST",
-                body: new FormData(e.target), // Uses keys from input 'name' attributes
-                // No headers needed for this simple no-cors request usually, or follow specific Google Script CORS patterns
-            });
+        const whatsappMessage = `*New Admission Inquiry*\n\n` +
+            `*Parent Name:* ${parentName}\n` +
+            `*Child Name:* ${childName}\n` +
+            `*Phone:* ${phone}\n` +
+            `*Program:* ${program}\n` +
+            `*Message:* ${message || "No message provided"}`;
 
-            // Google Apps Script simple POST often returns opaque response with 'no-cors' mode 
-            // but standard fetch might fail CORS if not handled. 
-            // For simple usage, we assume success if no network error.
+        const phoneNumber = schoolData.contact.phone.replace(/[^\d]/g, ""); // Remove non-numeric characters for API
+        const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`;
 
-            setFormState({ loading: false, success: true, error: false });
-            setFormData({
-                "Parent Name": "",
-                "Child Name": "",
-                "Phone": "",
-                "Program": "Playgroup",
-                "Message": ""
-            });
+        // Open WhatsApp in a new tab
+        window.open(whatsappURL, '_blank');
 
-            setTimeout(() => {
-                setFormState(prev => ({ ...prev, success: false }));
-            }, 5000);
+        setFormState({ loading: false, success: true, error: false });
 
-        } catch (error) {
-            console.error("Error!", error.message);
-            setFormState({ loading: false, success: false, error: true });
-        }
+        // Reset form
+        setFormData({
+            "Parent Name": "",
+            "Child Name": "",
+            "Phone": "",
+            "Program": "Playgroup",
+            "Message": ""
+        });
+
+        setTimeout(() => {
+            setFormState(prev => ({ ...prev, success: false }));
+        }, 5000);
     };
 
     return (

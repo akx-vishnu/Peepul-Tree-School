@@ -13,7 +13,7 @@ A modern, nature-themed website for Peepul Tree School built with React, Vite, a
     *   **Testimonials:** Parent stories and reviews.
     *   **FAQ:** Accordion-style frequently asked questions.
     *   **Timeline:** Vertical "A Day at Peepul Tree" visualization.
-    *   **Contact Form:** Integrated with Google Apps Script to save inquiries to Google Sheets.
+    *   **Contact Form:** Redirects inquiries to WhatsApp with a pre-filled message.
     *   **Google Map:** Embedded location map.
 *   **Performance:** Lazy loading for heavy assets and components.
 *   **SEO:** Meta tags and semantic HTML structure.
@@ -52,7 +52,7 @@ A modern, nature-themed website for Peepul Tree School built with React, Vite, a
 
 ## Configuration
 
-*   **Google Sheets Integration:** Update the `scriptURL` in `src/components/Contact.jsx` with your Google Apps Script Web App URL.
+*   **WhatsApp Integration:** Ensure the school phone number in `src/data/schoolData.js` is correct. Ideally, use a format like `+91 94007 42440`.
 *   **Content:** Most content is centralized in `src/data/schoolData.js` for easy updates.
 
 ## License
