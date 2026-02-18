@@ -17,12 +17,12 @@ export const schoolData = {
         googleLocation: "https://g.page/peepultreeschool"
     },
     hero: {
-        tagline: "Learning in Harmony with Nature",
-        subTagline: "A safe, nurturing space where children grow into mindful, creative, and responsible individuals.",
+        tagline: "Nature-Centric Learning in Palakkad",
+        subTagline: "A safe, nurturing school in Palakkad, Kerala where children grow into mindful, creative, and responsible individuals.",
         cta: "Enquire Now"
     },
     vision: "The vision of the school is to gently nurture sensitive, responsible, and emotionally stable individuals. We believe in helping young minds and hearts to grow with empathy, awareness, and a deep sense of belonging to society and to nature. Through conscious learning and meaningful experiences, children are encouraged to respect life in all its forms and to live in harmony with the world around them. Our vision is to raise thoughtful individuals who carry within them the values of compassion, balance, and responsibility, becoming quiet yet powerful contributors to a kinder, more sustainable earth.",
-    mission: "We strive to provide a holistic learning environment that integrates academic excellence with environmental awareness, fostering curiosity and critical thinking in every child.",
+    mission: "We strive to provide a holistic learning environment in Palakkad that integrates academic excellence with environmental awareness, fostering curiosity and critical thinking in every child.",
     philosophy: [
         {
             title: "Nature-Centric Learning",
@@ -75,7 +75,7 @@ export const schoolData = {
             age: "2 - 3 Years",
             focus: "Social interaction, sensory play, and comfort in a new environment.",
             details: {
-                description: "Our Playgroup is a gentle transition from home to school. We focus on emotional security and social adjustment through free play, songs, and sensory activities.",
+                description: "Our Playgroup in Palakkad is a gentle transition from home to school. We focus on emotional security and social adjustment through free play, songs, and sensory activities.",
                 curriculum: ["Sensory Play (Sand, Water, Clay)", "Music & Movement", "Storytelling", "Basic Life Skills"],
                 schedule: "9:00 AM - 12:00 PM"
             }
@@ -95,7 +95,7 @@ export const schoolData = {
             age: "4 - 6 Years",
             focus: "School readiness, advanced cognitive skills, and collaborative projects.",
             details: {
-                description: "Our Kindergarten program prepares children for formal schooling with a balanced approach of academics and holistic development.",
+                description: "Our Kindergarten program (CBSE integrated) prepares children for formal schooling with a balanced approach of academics and holistic development.",
                 curriculum: ["Advanced Literacy & Numeracy", "Science Experiments", "Project-based Learning", "Public Speaking"],
                 schedule: "9:00 AM - 1:00 PM"
             }
@@ -170,12 +170,12 @@ export const schoolData = {
         }
     ],
     gallery: [
-        { src: "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?q=80&w=2038&auto=format&fit=crop", alt: "Children playing with leaves" },
-        { src: "https://images.unsplash.com/photo-1508004526072-3be43a5005f6?q=80&w=1974&auto=format&fit=crop", alt: "Outdoor creative arts" },
-        { src: "https://images.unsplash.com/photo-1588072432836-e10032774350?q=80&w=2072&auto=format&fit=crop", alt: "Classroom activities" },
-        { src: "https://images.unsplash.com/photo-1472162072942-cd5147eb3902?q=80&w=2069&auto=format&fit=crop", alt: "Nature walk" },
-        { src: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?q=80&w=1972&auto=format&fit=crop", alt: "Sand play" },
-        { src: "https://images.unsplash.com/photo-1603354350317-6f7aaa5911c5?q=80&w=2070&auto=format&fit=crop", alt: "Story time" }
+        { src: "https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?q=80&w=2038&auto=format&fit=crop", alt: "Children playing with leaves at Peepul Tree School Palakkad" },
+        { src: "https://images.unsplash.com/photo-1508004526072-3be43a5005f6?q=80&w=1974&auto=format&fit=crop", alt: "Outdoor creative arts and painting session in nature" },
+        { src: "https://images.unsplash.com/photo-1588072432836-e10032774350?q=80&w=2072&auto=format&fit=crop", alt: "Montessori classroom activities and guided learning" },
+        { src: "https://images.unsplash.com/photo-1472162072942-cd5147eb3902?q=80&w=2069&auto=format&fit=crop", alt: "Nature walk and exploration in Palakkad campus" },
+        { src: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?q=80&w=1972&auto=format&fit=crop", alt: "Sensory sand play for kindergarten students" },
+        { src: "https://images.unsplash.com/photo-1603354350317-6f7aaa5911c5?q=80&w=2070&auto=format&fit=crop", alt: "Outdoor storytelling session under the trees" }
     ],
     floraFauna: [
         {

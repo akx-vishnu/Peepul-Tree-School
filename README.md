@@ -16,7 +16,14 @@ A modern, nature-themed website for Peepul Tree School built with React, Vite, a
     *   **Contact Form:** Redirects inquiries to WhatsApp with a pre-filled message.
     *   **Google Map:** Embedded location map.
 *   **Performance:** Lazy loading for heavy assets and components.
-*   **SEO:** Meta tags and semantic HTML structure.
+*   **SEO:** Comprehensive optimization including JSON-LD structured data, dynamic meta tags, and automated sitemap generation.
+
+## SEO Features
+
+*   **Advanced Meta Tags:** Dynamic Title, Description, and Open Graph tags managed component-wise.
+*   **Structured Data:** JSON-LD schema for School, LocalBusiness, FAQ, and Breadcrumbs.
+*   **Sitemap & Robots:** Automatically generated on build.
+*   **Performance:** Resource hints, lazy loading, and CLS optimization.
 
 ## Tech Stack
 

@@ -40,7 +40,7 @@ const Navbar = () => {
             <div className="container mx-auto px-4 flex justify-between items-center">
                 {/* Logo Area */}
                 <a href="#" className="flex items-center gap-2" aria-label="Peepul Tree School Home">
-                    <img src={logo} alt={schoolData.name} className="h-12 w-auto object-contain" />
+                    <img src={logo} alt="Peepul Tree School Logo - Nature Centric Learning" className="h-12 w-auto object-contain" />
                     <span className={`font-[var(--font-heading)] text-2xl font-bold ${scrolled ? 'text-[var(--color-primary-green)]' : 'text-[var(--color-primary-green)]'}`}>
                         {schoolData.name}
                     </span>

@@ -1,6 +1,8 @@
 import { useState, useEffect, lazy, Suspense } from 'react';
-import { Helmet } from 'react-helmet-async';
 import { AnimatePresence } from 'framer-motion';
+import SEO from './components/SEO';
+import StructuredData from './components/StructuredData';
+import { schoolData } from './data/schoolData';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -38,11 +40,12 @@ function App() {
 
             {!loading && (
                 <>
-                    <Helmet>
-                        <title>Peepul Tree School | Nature-Centric Learning</title>
-                        <meta name="description" content="Peepul Tree School in Palakkad offers a holistic learning environment integrated with nature. Admissions open for Playgroup, Nursery, and Kindergarten." />
-                        <meta name="keywords" content="Preschool Palakkad, Nature School, Holistic Education, Kindergarten, Peepul Tree School, Child-centric learning" />
-                    </Helmet>
+                    <SEO
+                        title="Home"
+                        description={schoolData.hero.subTagline}
+                        keywords="Peepul Tree School, Palakkad, Kindergarten, Nature School, CBSE, Admissions, Playgroup"
+                    />
+                    <StructuredData />
                     <Navbar />
                     <Hero />
                     <About />

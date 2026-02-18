@@ -55,7 +55,9 @@ const Hero = () => {
                     <div className="relative z-10 rounded-[2rem] overflow-hidden shadow-2xl rotate-2 hover:rotate-0 transition-all duration-500">
                         <img
                             src="https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?q=80&w=2038&auto=format&fit=crop"
-                            alt="Children playing in nature"
+                            alt="Children from Peepul Tree School playing in nature in Palakkad"
+                            width="2038"
+                            height="1359"
                             className="w-full h-[500px] object-cover"
                         />
                     </div>

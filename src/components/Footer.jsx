@@ -4,7 +4,7 @@ import { Instagram, Facebook } from 'lucide-react';
 
 const Footer = () => {
     return (
-        <footer className="bg-[var(--color-primary-green)] text-white py-12">
+        <footer className="bg-[var(--color-primary-green)] text-white pt-16 pb-8">
             <div className="container mx-auto px-4 text-center">
                 <div className="flex justify-center mb-4">
                     <a href="#home" aria-label="Back to Home">

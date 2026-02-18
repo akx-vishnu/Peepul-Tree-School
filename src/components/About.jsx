@@ -13,7 +13,7 @@ const iconMap = {
 
 const About = () => {
     return (
-        <Section id="about" className="bg-white">
+        <Section id="about" className="bg-white overflow-hidden">
             <div className="grid md:grid-cols-2 gap-16 items-center">
                 {/* Vision Content */}
                 <motion.div
